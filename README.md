@@ -56,14 +56,6 @@ python anomaly_det.py
 - `anomaly_detection_results.png`: Visualization of results
 - `feature_importance.png`: Feature importance plot
 
-## Notes
-- The script is designed to print all results and save files before showing any plot windows, so you can review the output in the terminal first.
-- The contamination rate in IsolationForest can be adjusted in the script if you expect a different proportion of anomalies.
-
-## Customization
-- To change the contamination rate, modify the `contamination` parameter in the `train_isolation_forest` function call in `main()`.
-- To use a different dataset, update the `file_path` variable in `main()`.
-
 ## References
 - [UNSW-NB15 Dataset](https://research.unsw.edu.au/projects/unsw-nb15-dataset)
 - [IsolationForest Documentation (scikit-learn)](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html) 
